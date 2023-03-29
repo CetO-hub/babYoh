@@ -4,7 +4,11 @@ import logo from "../assets/img/logo.jpg";
 const Navigation = () => {
   return (
     <>
-      <img src={logo} />
+      <div className="row">
+        <div className="logo-container">
+          <img src={logo} />
+        </div>
+      </div>
     </>
   );
 };
