@@ -41,6 +41,12 @@ body {
   font-size: var(--text-small);
 }
 
+img {
+  object-fit: contain;
+  max-width: 100%;
+  height: 100%;
+}
+
 .row {
   max-width: var(--container-extra-large);
   padding: 0 var(--gutter-medium);
@@ -102,4 +108,9 @@ a {
     padding: var(--gutter-small) var(--gutter-medium);
     cursor: pointer;
   }
+}
+
+/* ----- Hero ----- */
+
+.hero__image img {
 }
