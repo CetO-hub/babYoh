@@ -5,9 +5,22 @@ const Navigation = () => {
   return (
     <>
       <div className="row">
-        <div className="logo-container">
-          <img src={logo} />
-        </div>
+        <div className="nav"></div>
+        <a href="/">
+          <img src={logo} data-testid="logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/login" data-testid="login">
+              Login
+            </a>
+          </li>
+          <li>
+            <a href="/signup" data-testid="signup">
+              Signup
+            </a>
+          </li>
+        </ul>
       </div>
     </>
   );
